@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(234, 235, 220);
+}
+
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.start {
+  font-size: 24px;
+  background-color: green;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px ;
+}
+.start:focus {
+  outline: none;
+}
+
+.spades {
+  border: 1px solid black;
+  background: no-repeat center/60% url("https://svgsilh.com/svg/145116.svg") burlywood 
+  }
+.clubes {
+  border: 1px solid black;
+  background: no-repeat center/60% url("https://cdn150.picsart.com/upscale-270296998004211.png?r1024x1024") rgb(206, 222, 135) 
+  }
+.diamonds {
+  border: 1px solid black;
+  background: no-repeat center/60% url("https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Card_diamond.svg/743px-Card_diamond.svg.png") rgb(142, 222, 135) 
+  }
+.hearts {
+  border: 1px solid black;
+  background: no-repeat center/60% url("https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Card_heart.svg/866px-Card_heart.svg.png") rgb(135, 202, 222) 
+}
+.common {
+  border: 1px solid black;
+  background: grey;
+}
